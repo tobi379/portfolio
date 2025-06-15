@@ -243,10 +243,12 @@ export default function TobiasPortfolio() {
               >
                 Ver Mis Proyectos
               </Button>
-              <Button size="lg" variant="outline" className="flex items-center gap-2">
-                <Download className="h-4 w-4" />
-                Descargar CV
-              </Button>
+              <a href="/Tobias_Pazos_CV.pdf" download target="_blank" rel="noopener noreferrer">
+                <Button size="lg" variant="outline" className="flex items-center gap-2">
+                  <Download className="h-4 w-4" />
+                  Descargar CV
+                </Button>
+              </a>
             </div>
           </div>
         </div>
